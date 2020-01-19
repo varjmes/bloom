@@ -1,0 +1,63 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App should match snapshot 1`] = `
+.c0 {
+  list-style-type: none;
+}
+
+<main>
+  <h1>
+    Todo Container
+  </h1>
+  <form
+    data-testid="form"
+  >
+    <label>
+      add todo
+      <input
+        type="text"
+        value=""
+      />
+    </label>
+    <button
+      type="submit"
+    >
+      submit
+    </button>
+  </form>
+  <ul
+    class="c0"
+  >
+    <li>
+      <span
+        aria-label="done"
+        role="img"
+      >
+        🌱
+      </span>
+       
+      breakfast
+    </li>
+    <li>
+      <span
+        aria-label="done"
+        role="img"
+      >
+        🌱
+      </span>
+       
+      kiss jo
+    </li>
+    <li>
+      <span
+        aria-label="done"
+        role="img"
+      >
+        🌱
+      </span>
+       
+      splatoon 2
+    </li>
+  </ul>
+</main>
+`;
